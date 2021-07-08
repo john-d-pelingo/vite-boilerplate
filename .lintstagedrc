@@ -1,0 +1,8 @@
+{
+  "src/**/*.{css,js,ts,tsx}": [
+    "eslint --fix --max-warnings 0 --report-unused-disable-directives"
+  ],
+  "*.{js,ts,tsx,json,yml,yaml,css,html}": [
+    "prettier --write"
+  ]
+}
