@@ -1,6 +1,6 @@
 {
   "name": "vite-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a template repo for React projects with the help of Vite with extended configuration.",
   "private": false,
   "homepage": ".",
