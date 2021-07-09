@@ -40,7 +40,7 @@
     "postinstall": "husky install",
     "sweep": "rimraf dist coverage",
     "test": "jest --env=jsdom --no-cache",
-    "test:ci": "echo \"TODO: add test:ci script\" && exit 0",
+    "test:ci": "jest --env=jsdom --no-cache --coverage",
     "test:t": "tsc -p ./tsconfig.json --noEmit",
     "test:w": "jest --env=jsdom --no-cache --verbose=false --watch",
     "--BUILD--": "echo \"--BUILD--\" && exit 1",
